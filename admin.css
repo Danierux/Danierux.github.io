@@ -1,0 +1,127 @@
+.admin_catalogo {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 1rem 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.imagen_logo {
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.lista_opciones_nav {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.item_admi {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contenedor_btn_close {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #ff0000;
+    cursor: pointer;
+}
+
+.btn_close {
+    border: none;
+    background: transparent;
+    font-size: 1rem;
+    color: #ff0000;
+    cursor: pointer;
+}
+
+.header_agregar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 1rem;
+    gap: 0.5rem;
+}
+
+.btn_agregar {
+    background-color: #43a691 !important;
+    color: #fff;
+    border: none !important;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn_agregar:hover {
+    background-color: #388e7a;
+}
+
+.articulo_form {
+    display: grid;
+    gap: 1rem;
+}
+
+.tablas_admin {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.tabla_scroll {
+    overflow-x: auto;
+    border-radius: 0.5rem;
+    background: #ffffff52;
+}
+
+p:dataTable {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.divide_inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem
+}
+
+body .ui-datatable .ui-datatable-data>tr,
+body .ui-datatable thead th {
+    background: transparent !important;
+}
+
+body .ui-selectonemenu .ui-selectonemenu-label {
+    display: flex;
+    align-items: center
+}
+
+body .ui-datatable {
+    border: 1px solid #ddd;
+}
+
+body .ui-datatable th,
+body .ui-datatable td {
+    padding: 1rem;
+    text-align: left;
+}
+
+body .ui-dialog {
+    height: 90% !important;
+}
